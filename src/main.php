@@ -16,26 +16,24 @@ public function OnDisable(){
 $this->getLogger()->info(Color::RED."A5t9arPlugin is Disable");
 
 
-public function OnCommand(command $sender, Command $cmd, $label, array, $args) {
-     switch ($cmd->getName()) {
-           case "g1"
-                     
-                      $sender->sendMassage(Color::YELLOW."$name your are Creative now");
-                                         $sender->getPlayer->getGamemode()->setGamemode(setgamemode1)
+public function OnCommand(CommandSender $sender, Command $cmd, $label, array $args){
+     switch ($cmd->getName()){
+       case "g1":             
+       $sender->sendMassage(Color::YELLOW."your are Creative now");
+                                         $sender->getPlayer->getGamemode()->setGamemode(setGamemode1)
 
 
 
-public function OnCommand(command $sender, Command $cmd, $label, array, $args) {
-      switch ($cmd->getName()) {
-               case "g0"
-
-                                     $sender->sendMassage(Color::YELLOW."$name your are Survival now");
+public function OnCommand(CommandSender $sender, Command $cmd, $label, array $args){
+      switch ($cmd->getName()){
+        case "g0":
+          $sender->sendMassage(Color::YELLOW."your are Survival now");
                                                           $sender->getPlayer->getGamemode()->setGamemode(setGamemode0)
 
 
-                        public function OnCommand(command $sender, Command $cmd, $label, array, $args) {
-                                          switch ($cmd->getName()) {
-                                                     case "g2"
+                        public function OnCommand(command $sender, Command $cmd, $label, array $args){
+                                          switch ($cmd->getName()){
+                                            case "g2":
                                           $sender->sendMassage(Color::YELLOW."$name your are Adv now");
                                                            $sender->getPlayer->getGamemode()->setGamemode(setGamemode2)
     
