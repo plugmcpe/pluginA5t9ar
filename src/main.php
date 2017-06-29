@@ -7,7 +7,7 @@ use pocketmine\utils\text Format as Color;
 use pocketmine\command\Command;
 use pocketmine\Command\CommandSender;
 
-Class Mini extends PluginBase{
+Class Main extends PluginBase{
 
 public function OnEnable(){
   $this->getLogger()->info(Color::GREEN."A5t9arPlugin is Enable");
